@@ -19,9 +19,9 @@ const App = () => {
   //usecallback
   const passwordGenerator = useCallback(() => {
     let pass = "";
-    let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    let str = "SatyamPriya";
 
-    if (numAllowed) str += "0123456789";
+    if (numAllowed) str += "180698";
     if (charAllowed) str += "@#$%^&*(){}[]|?/>.`~";
 
     for (let i = 1; i < length; i++) {
